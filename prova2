@@ -1,0 +1,53 @@
+def exercicio1():
+    nota1 = int(input('Nota 1ª prova:7 '))
+    nota2 = int(input('Nota 2ª prova:8 '))
+    nota3 = int(input('Nota 3ª prova:6 '))
+
+    soma_das_notas = nota1 + nota2 + nota3
+    media_das_notas = soma_das_notas/3
+
+    print(f'Média do aluno é {media_das_notas}')
+
+
+exercicio1()
+
+def exercicio2():
+  numero_de_entradas = int(input("Digite o tamanho da lista:10 "))
+  saida_da_lista = []
+  i = 1
+  while i < numero_de_entradas:
+    saida_da_lista.append(input("Adicione na lista por aqui:7 "))
+    i += 2
+  return saida_da_lisa
+
+
+print (exercicio2()
+
+def exercicio3():
+  escolha = input("Entre com sua escolha aqui: ")
+  while escolha !='z' or escolha !='Z':
+    if escolha == 'a':
+      print("Globo")
+    elif escolha == 'b':
+      print('SBT')
+    else:
+      print("Inválido")
+      break
+    escolha = input()
+
+
+exercicio3()
+
+def exercicio4(lista):
+  medias_inferiores_que_7 = 0
+  for elemento in lista:
+    if elemento < 7:
+      medias_inferiores_que_7 += 1
+  if medias_inferiores_que_7 * len(lista) > 0.25:
+    return "Professor Coxa"
+  else:
+    return "Professor Padrão"
+lista = [4,5,8,9]
+
+
+  ecercicio4()
